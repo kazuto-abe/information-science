@@ -1,4 +1,4 @@
-# This is a journal for comp sci - March 12th
+# This is a journal for comp sci - February 13th
 
 
 - what did we do?
@@ -12,6 +12,7 @@
    - One =  One + 1
    - One += 1
    - One ++
+  
   How to make a bar graph
   
 -----------------------------------------------------------------------------------------------------------
