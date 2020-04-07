@@ -58,7 +58,7 @@ Furthermore, I made the lists to substitute some variable of coordinate that I a
 For the next step,  Because no circle needed to move outside of the maximum coordinate, I added the boundary conditions using “if” sentences. (for the first task, I necessary to add three more boundary conditions) <br>
 This is the code of the first task:
 
-```
+```python
  #bounderies conditions
         if x[i] > 500:
             x[i] = 500
@@ -76,7 +76,7 @@ In this part, I change the number inside of the “for loop” how many times it
 
 So code will be the following:
 
-```
+```python
 # definition of variables
 
 x = [] # a list, which is a collection of values
