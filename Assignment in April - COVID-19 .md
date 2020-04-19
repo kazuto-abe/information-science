@@ -349,10 +349,27 @@ Basically I only added a small three changes in here.
 - In order to output those, I’ve used the “text” function as well as question1. 
 
 ### Task Part3
+| Case number | Number of people moving | Population size | Number of iterations till all population is infected
+| ------------- | ------------- | ------------- | ------------- |
+| 1  | 1  | 25  | 4253  |
+| 2  | 2  | 25  | 3129  |
+| 3  | 4  | 25  | 2734  |
+| 4  | 8  | 25  | 1988  |
+| 5  | 16 | 25  | 890   |
+
+#### What conclusion can you draw from the simulations you run in step 3. Explain. <br>
+
+The key tendency to remember is that I can observe from this table is that the relationship between the number of people moving and the number of iterations till all infected is completely inverted. As we can see the consequences above, the number of people moving is increasing by the power of 2, at the same time, the number of times the simulation has run is decreasing gradually. (Also population size is fixed because it has to be control experiment to compare the data properly) 
+Therefore, the rate of spread will be increasing exponentially if a bunch of people move at the same time in a current real situation.
 
 
-#### What did I learn
+#### What did I learn <br>
 
+Basically I learnt two things that reflecting basic structure in terms of the“for loop” and how coronavirus will be spreading out in real life through developing simulator from multiple tasks.
+First of all, I made three types of programs it’s consisted of plain structure using “for loop”. 
+Mostly that was pretty friendly tasks for me compared to another practical task, however, I had to be careful how “bear” might be showing up as a special case. So that by utilizing the “if” function, I easily overcome this problem.
+In terms of making COVID-19 simulator, this was done by append function, for loop, mathematical thinking to calculate the distance between for each, and if function. 
+Especially what I struggled with the technical issue is that creating a bar graph and its label. This is because I had to think about both how to form the rectangle as a bar graph and how it changes with the number of people infected. But basically those skills are based on “for loop”, if function, and putting variables into the list. Above all, It’s not included any unfamiliar knowledge, it’s just mashed basic coding skill we’ve learned up. <br>
 
 
 #### What questions do I have
