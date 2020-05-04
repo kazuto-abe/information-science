@@ -37,7 +37,7 @@ What would we need?
 - A way of representing sick, healthy and recovered individuals.
 
 #### Q. What did I do<br>
-→nitially, I was scanning and analyzing the article about how a personal computer can help the fight against COVID-19. Secondly, I tried to understand the process of computer simulation, and how it works using the initial video Dr.Ruban gave us. Then I considered what would we need to carry out this simulation: computer programming language, people, individuals in a community, etc...
+→Initially, I was scanning and analyzing the article about how a personal computer can help the fight against COVID-19. Secondly, I tried to understand the process of computer simulation, and how it works using the initial video Dr.Ruban gave us. Then I considered what would we need to carry out this simulation: computer programming language, people, individuals in a community, etc...
 Thirdly,  I actually started working on the computer simulation that shows how coronaviruses spread themselves. In order to express the individual for each, I made one circle and let it move randomly. So that I used a new function which can be adding the random number within the range I set. ( In this case, I set -10 to 10)
 Furthermore, I made the lists to substitute some variable of coordinate that I added.
 For the next step,  Because no circle needed to move outside of the maximum coordinate, I added the boundary conditions using “if” sentences. (for the first task, I necessary to add three more boundary conditions) 
